@@ -1,0 +1,65 @@
+/* src/styles/antebraco.css */
+
+.main-container {
+  padding: 1.5rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  font-size: 1.125rem;
+  color: #6b7280; /* text-muted-foreground */
+  margin-top: 0.5rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.mini-treino {
+  background-color: #f3f4f6; /* bg-muted */
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.list {
+  list-style: disc inside;
+}
+
+.list-spaced li {
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 3rem;
+}
